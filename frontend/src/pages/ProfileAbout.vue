@@ -97,7 +97,7 @@
 	</div>
 </template>
 <script setup>
-import { inject } from 'vue'
+import { inject, watchEffect } from 'vue'
 import { createResource, Popover, Button } from 'frappe-ui'
 import { X, LinkedinIcon, Twitter } from 'lucide-vue-next'
 import { sessionStore } from '@/stores/session'
@@ -152,4 +152,5 @@ const shareOnSocial = (badge, medium) => {
 
 	window.open(shareUrl, '_blank')
 }
+
 </script>

@@ -160,10 +160,10 @@ watchEffect(() => {
 		let route = {
 			About: { name: 'ProfileAbout' },
 			Certificates: { name: 'ProfileCertificates' },
+			Qualification: {name: 'ProfileQualification' },
 			Roles: { name: 'ProfileRoles' },
 			Slots: { name: 'ProfileEvaluator' },
 			Schedule: { name: 'ProfileEvaluationSchedule' },
-			Qualification: {name: 'ProfileQualification'}
 		}[activeTab.value]
 		router.push(route)
 	}

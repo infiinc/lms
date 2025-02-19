@@ -96,9 +96,9 @@ const routes = [
 					import('@/pages/ProfileEvaluationSchedule.vue'),
 			},
 			{
-				path: 'qualification',
 				name: 'ProfileQualification',
-				component: () => import('@/components/ProfileQualification.vue'),
+				path: 'qualification',
+				component: () => import('@/pages/ProfileQualification.vue'),
 			},			
 		],
 	},
